@@ -1,0 +1,532 @@
+DEBUG 2018-02-12 11:07:17,029 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-12 11:07:17,121 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-02-12 11:07:17,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.Web.Host.Startup.AbpTemplateWebHostModule, AbpTemplate.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateWebCoreModule, AbpTemplate.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateApplicationModule, AbpTemplate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateCoreModule, AbpTemplate.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:17,167 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-02-12 11:07:17,264 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:07:17,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:07:17,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:07:17,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:07:17,638 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpTemplate.EntityFrameworkCore.AbpTemplateDbContext, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:07:18,225 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-12 11:07:18,238 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-12 11:07:18,268 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-12 11:07:18,271 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpTemplate
+DEBUG 2018-02-12 11:07:18,272 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-12 11:07:18,314 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-12 11:07:18,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-02-12 11:07:18,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-02-12 11:07:18,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.CreateUserDto
+DEBUG 2018-02-12 11:07:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.UserDto
+DEBUG 2018-02-12 11:07:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-12 11:07:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-12 11:07:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-12 11:07:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.PermissionDto
+DEBUG 2018-02-12 11:07:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.RoleDto
+DEBUG 2018-02-12 11:07:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-12 11:07:18,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.TenantDto
+FATAL 2018-02-12 11:07:19,560 [1    ] Abp.AbpBootstrapper                      - Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpEditions'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(AbpTemplateDbContext context) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule.PostInitialize() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\AbpTemplateEntityFrameworkModule.cs:line 48
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpEditions'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(AbpTemplateDbContext context) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule.PostInitialize() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\AbpTemplateEntityFrameworkModule.cs:line 48
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2018-02-12 11:07:19,665 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpEditions'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at AbpTemplate.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(AbpTemplateDbContext context) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at AbpTemplate.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule.PostInitialize() in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.EntityFrameworkCore\EntityFrameworkCore\AbpTemplateEntityFrameworkModule.cs:line 48
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 37
+   at AbpTemplate.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.Web.Host\Startup\Startup.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.ApplicationInsights.HostingStartup.ApplicationInsightsLoggerStartupFilter.<>c__DisplayClass0_1.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.ApplicationInsights.AspNetCore.ApplicationInsightsStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISSetupFilter.<>c__DisplayClass3_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+INFO  2018-02-12 11:07:19,876 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-02-12 11:07:19,947 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.8284ms 500 text/html; charset=utf-8
+INFO  2018-02-12 11:07:20,016 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2018-02-12 11:07:20,066 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.0843ms 500 text/html; charset=utf-8
+WARN  2018-02-12 11:07:23,399 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+WARN  2018-02-12 11:07:28,430 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+WARN  2018-02-12 11:07:33,463 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+WARN  2018-02-12 11:07:38,505 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AbpBackgroundJobs'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+DEBUG 2018-02-12 11:08:57,249 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-02-12 11:08:57,285 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-02-12 11:08:57,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.Web.Host.Startup.AbpTemplateWebHostModule, AbpTemplate.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateWebCoreModule, AbpTemplate.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,311 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateApplicationModule, AbpTemplate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,311 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateCoreModule, AbpTemplate.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,314 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,314 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:57,321 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-02-12 11:08:57,394 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:08:57,394 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:08:57,394 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:08:57,394 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-02-12 11:08:57,707 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpTemplate.EntityFrameworkCore.AbpTemplateDbContext, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-02-12 11:08:58,199 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-02-12 11:08:58,214 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-02-12 11:08:58,223 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-02-12 11:08:58,225 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpTemplate
+DEBUG 2018-02-12 11:08:58,227 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-02-12 11:08:58,275 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-02-12 11:08:58,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-02-12 11:08:58,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-02-12 11:08:58,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.CreateUserDto
+DEBUG 2018-02-12 11:08:58,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.UserDto
+DEBUG 2018-02-12 11:08:58,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-02-12 11:08:58,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-02-12 11:08:58,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.CreateRoleDto
+DEBUG 2018-02-12 11:08:58,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.PermissionDto
+DEBUG 2018-02-12 11:08:58,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.RoleDto
+DEBUG 2018-02-12 11:08:58,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-02-12 11:08:58,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.TenantDto
+INFO  2018-02-12 11:09:01,578 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-02-12 11:09:01,846 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 295.9162ms 404 
+INFO  2018-02-12 11:09:18,076 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swaggerui  
+INFO  2018-02-12 11:09:18,078 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0973ms 404 
+INFO  2018-02-12 11:09:21,738 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-02-12 11:09:21,746 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.5136ms 301 
+INFO  2018-02-12 11:09:21,758 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-02-12 11:09:21,778 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,791 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.4914ms 200 text/html
+INFO  2018-02-12 11:09:21,818 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-02-12 11:09:21,822 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,826 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-02-12 11:09:21,828 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,828 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.4727ms 200 text/css
+INFO  2018-02-12 11:09:21,828 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-02-12 11:09:21,828 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-02-12 11:09:21,828 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-02-12 11:09:21,828 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-02-12 11:09:21,829 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.6457ms 200 text/css
+INFO  2018-02-12 11:09:21,829 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,829 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,829 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,829 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,829 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3017ms 200 text/css
+INFO  2018-02-12 11:09:21,829 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1946ms 200 application/javascript
+INFO  2018-02-12 11:09:21,830 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5494ms 200 text/css
+INFO  2018-02-12 11:09:21,836 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-02-12 11:09:21,837 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-02-12 11:09:21,838 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,838 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0752ms 200 application/javascript
+INFO  2018-02-12 11:09:21,840 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,842 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.3908ms 200 application/javascript
+INFO  2018-02-12 11:09:21,850 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-02-12 11:09:21,851 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-02-12 11:09:21,852 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,852 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,853 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.8417ms 200 application/javascript
+INFO  2018-02-12 11:09:21,855 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-02-12 11:09:21,856 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-02-12 11:09:21,857 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,857 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0594ms 200 application/javascript
+INFO  2018-02-12 11:09:21,857 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,858 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3969ms 200 application/javascript
+INFO  2018-02-12 11:09:21,862 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.1089ms 200 application/javascript
+INFO  2018-02-12 11:09:21,862 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.4315ms 200 application/javascript
+INFO  2018-02-12 11:09:21,866 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-02-12 11:09:21,869 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,875 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-02-12 11:09:21,877 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,878 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.5867ms 200 application/javascript
+INFO  2018-02-12 11:09:21,878 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4765ms 200 application/javascript
+INFO  2018-02-12 11:09:21,882 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-02-12 11:09:21,883 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,883 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9385ms 200 application/javascript
+INFO  2018-02-12 11:09:21,887 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-02-12 11:09:21,887 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-02-12 11:09:21,888 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,889 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.8804ms 200 application/javascript
+INFO  2018-02-12 11:09:21,889 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,889 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2498ms 200 application/javascript
+INFO  2018-02-12 11:09:21,892 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-02-12 11:09:21,896 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,897 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.8974ms 200 application/javascript
+INFO  2018-02-12 11:09:21,929 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-02-12 11:09:21,930 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:21,930 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5036ms 200 image/png
+INFO  2018-02-12 11:09:22,062 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-16x16.png  
+INFO  2018-02-12 11:09:22,063 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-02-12 11:09:22,063 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4ms 200 image/png
+INFO  2018-02-12 11:09:22,075 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-02-12 11:09:22,359 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 284.1007ms 200 application/json
+INFO  2018-02-12 11:09:22,854 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1518422962848  
+INFO  2018-02-12 11:09:22,854 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-02-12 11:09:22,856 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1518422962850  
+INFO  2018-02-12 11:09:22,856 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.11ms 200 application/javascript
+INFO  2018-02-12 11:09:22,856 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-02-12 11:09:22,857 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9457ms 200 application/javascript
