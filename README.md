@@ -10,19 +10,20 @@ User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/Admin
 
 ### Run
 
+Run docker container:
+
 `docker run -p 9902:80 volosoft/abp-template`
 
-### Screenshots
+Browse the application:
 
-#### Sample Dashboard Page
-![](_screenshots/ui-home.png)
+http://localhost:9902
 
-#### User Creation Modal
-![](_screenshots/ui-user-create-modal.png)
+#### Login Credentials
 
-#### Login Page
-
-![](_screenshots/ui-login.png)
+````
+Username: admin
+Password: 123qwe
+````
 
 ### Documentation
 
