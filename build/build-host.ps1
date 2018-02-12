@@ -18,6 +18,7 @@ dotnet restore
 ## PUBLISH WEB Host PROJECT ###################################################
 
 Set-Location $webHostFolder
+yarn
 dotnet publish --output (Join-Path $outputFolder "Host")
 
 ## CREATE DOCKER IMAGES #######################################################
