@@ -6,11 +6,11 @@ User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/Admin
  
 # Download
 
-docker pull volosoft/abp-template
+`docker pull volosoft/abp-template`
 
 # Run
 
-docker run -p 9902:80 volosoft/abp-template
+`docker run -p 9902:80 volosoft/abp-template`
 
 # Screenshots
 
