@@ -1,8 +1,6 @@
 ## Introduction
 
-This is a template that is live docker-image on [Docker Hub](https://hub.docker.com/r/volosoft/abp-template/). 
-
-User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/AdminBSBMaterialDesign).
+This is the repository of the [ABP startup template docker image](https://hub.docker.com/r/volosoft/abp-template/).
  
 ### Download
 
@@ -26,6 +24,8 @@ Password: 123qwe
 ````
 
 ### Documentation
+
+The documentation of the startup template:
 
 * [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
 
