@@ -530,3 +530,279 @@ INFO  2018-02-12 11:09:22,856 [14   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2018-02-12 11:09:22,856 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.11ms 200 application/javascript
 INFO  2018-02-12 11:09:22,856 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'C:\Users\aliriza\Desktop\AbpTemplate\src\AbpTemplate.Web.Host\wwwroot\swagger\ui\on-complete.js'
 INFO  2018-02-12 11:09:22,857 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9457ms 200 application/javascript
+DEBUG 2018-05-09 16:59:19,271 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-09 16:59:19,330 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-09 16:59:19,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.Web.Host.Startup.AbpTemplateWebHostModule, AbpTemplate.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateWebCoreModule, AbpTemplate.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateApplicationModule, AbpTemplate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateCoreModule, AbpTemplate.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:19,385 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-09 16:59:19,483 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:19,483 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:19,483 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:19,483 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:19,931 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpTemplate.EntityFrameworkCore.AbpTemplateDbContext, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:20,498 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-09 16:59:20,561 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-09 16:59:20,614 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-09 16:59:20,642 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpTemplate
+DEBUG 2018-05-09 16:59:20,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-09 16:59:20,713 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-09 16:59:20,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-09 16:59:20,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-09 16:59:20,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.CreateUserDto
+DEBUG 2018-05-09 16:59:20,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.UserDto
+DEBUG 2018-05-09 16:59:20,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-09 16:59:20,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-09 16:59:20,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-09 16:59:20,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.PermissionDto
+DEBUG 2018-05-09 16:59:20,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.RoleDto
+DEBUG 2018-05-09 16:59:20,770 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-09 16:59:20,770 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.TenantDto
+INFO  2018-05-09 16:59:22,832 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-09 16:59:23,043 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\index.html'
+INFO  2018-05-09 16:59:23,060 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 254.2491ms 200 text/html
+INFO  2018-05-09 16:59:23,091 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/styles.f07454bb01b730501f78.bundle.css  
+INFO  2018-05-09 16:59:23,091 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/styles.f07454bb01b730501f78.bundle.css'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\styles.f07454bb01b730501f78.bundle.css'
+INFO  2018-05-09 16:59:23,095 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/inline.d6681abbe58cae65af2d.bundle.js  
+INFO  2018-05-09 16:59:23,095 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/inline.d6681abbe58cae65af2d.bundle.js'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\inline.d6681abbe58cae65af2d.bundle.js'
+INFO  2018-05-09 16:59:23,096 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.8354ms 200 application/javascript
+INFO  2018-05-09 16:59:23,098 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/polyfills.b2645767a13e5e650a50.bundle.js  
+INFO  2018-05-09 16:59:23,098 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/polyfills.b2645767a13e5e650a50.bundle.js'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\polyfills.b2645767a13e5e650a50.bundle.js'
+INFO  2018-05-09 16:59:23,103 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.6471ms 200 application/javascript
+INFO  2018-05-09 16:59:23,103 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/scripts.7110e42c2813053fae54.bundle.js  
+INFO  2018-05-09 16:59:23,103 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/scripts.7110e42c2813053fae54.bundle.js'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\scripts.7110e42c2813053fae54.bundle.js'
+INFO  2018-05-09 16:59:23,103 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.5882ms 200 text/css
+INFO  2018-05-09 16:59:23,107 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/main.d1aa32fd2449562d456a.bundle.js  
+INFO  2018-05-09 16:59:23,107 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/main.d1aa32fd2449562d456a.bundle.js'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\main.d1aa32fd2449562d456a.bundle.js'
+INFO  2018-05-09 16:59:23,117 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.2131ms 200 application/javascript
+INFO  2018-05-09 16:59:23,160 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.4439ms 200 application/javascript
+INFO  2018-05-09 16:59:23,787 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/CWB0XYA8bzo0kSThX0UTuA.a2647ffe169bbbd94a32.woff2  
+INFO  2018-05-09 16:59:23,787 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/CWB0XYA8bzo0kSThX0UTuA.a2647ffe169bbbd94a32.woff2'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\CWB0XYA8bzo0kSThX0UTuA.a2647ffe169bbbd94a32.woff2'
+INFO  2018-05-09 16:59:23,788 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2934ms 200 font/woff2
+INFO  2018-05-09 16:59:23,809 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/assets/appconfig.json application/json 
+INFO  2018-05-09 16:59:23,810 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/assets/appconfig.json'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\assets\appconfig.json'
+INFO  2018-05-09 16:59:23,810 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1045ms 200 application/json
+INFO  2018-05-09 16:59:23,827 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2018-05-09 16:59:23,828 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\favicon.ico'
+INFO  2018-05-09 16:59:23,830 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2475ms 200 image/x-icon
+INFO  2018-05-09 16:59:28,155 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.aa3e87117db2b3c27801.woff2  
+INFO  2018-05-09 16:59:28,155 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.aa3e87117db2b3c27801.woff2'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.aa3e87117db2b3c27801.woff2'
+INFO  2018-05-09 16:59:28,156 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3191ms 200 font/woff2
+DEBUG 2018-05-09 16:59:40,465 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-09 16:59:40,502 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-09 16:59:40,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.Web.Host.Startup.AbpTemplateWebHostModule, AbpTemplate.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateWebCoreModule, AbpTemplate.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,547 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateApplicationModule, AbpTemplate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateCoreModule, AbpTemplate.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:40,555 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-09 16:59:40,650 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:40,650 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:40,650 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:40,650 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 16:59:41,136 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpTemplate.EntityFrameworkCore.AbpTemplateDbContext, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 16:59:41,791 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-09 16:59:41,855 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-09 16:59:41,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-09 16:59:41,952 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpTemplate
+DEBUG 2018-05-09 16:59:41,988 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-09 16:59:42,028 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-09 16:59:42,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-09 16:59:42,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-09 16:59:42,086 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.CreateUserDto
+DEBUG 2018-05-09 16:59:42,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.UserDto
+DEBUG 2018-05-09 16:59:42,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-09 16:59:42,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-09 16:59:42,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-09 16:59:42,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.PermissionDto
+DEBUG 2018-05-09 16:59:42,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.RoleDto
+DEBUG 2018-05-09 16:59:42,088 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-09 16:59:42,088 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.TenantDto
+INFO  2018-05-09 16:59:44,476 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/assets/appconfig.json application/json 
+INFO  2018-05-09 16:59:44,476 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/CWB0XYA8bzo0kSThX0UTuA.a2647ffe169bbbd94a32.woff2  
+INFO  2018-05-09 16:59:44,524 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/CWB0XYA8bzo0kSThX0UTuA.a2647ffe169bbbd94a32.woff2'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\CWB0XYA8bzo0kSThX0UTuA.a2647ffe169bbbd94a32.woff2'
+INFO  2018-05-09 16:59:44,524 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/assets/appconfig.json'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\assets\appconfig.json'
+INFO  2018-05-09 16:59:44,545 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.7998ms 200 application/json
+INFO  2018-05-09 16:59:44,545 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.7907ms 200 font/woff2
+INFO  2018-05-09 16:59:51,939 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-09 16:59:52,159 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 220.7119ms 200 text/html
+INFO  2018-05-09 16:59:52,196 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-09 16:59:52,201 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-09 16:59:52,201 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-09 16:59:52,206 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-05-09 16:59:52,206 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-05-09 16:59:52,206 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-05-09 16:59:52,223 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.4213ms 200 text/css
+INFO  2018-05-09 16:59:52,225 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.3947ms 200 application/javascript
+INFO  2018-05-09 16:59:52,246 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.5565ms 200 application/javascript
+INFO  2018-05-09 16:59:52,682 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-05-09 16:59:52,683 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-05-09 16:59:52,683 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2499ms 200 image/png
+INFO  2018-05-09 16:59:52,730 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-09 16:59:52,734 [25   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-05-09 16:59:52,736 [25   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-05-09 16:59:53,016 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 286.2839ms 200 application/json
+DEBUG 2018-05-09 17:02:06,493 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-09 17:02:06,549 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-09 17:02:06,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.Web.Host.Startup.AbpTemplateWebHostModule, AbpTemplate.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateWebCoreModule, AbpTemplate.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateApplicationModule, AbpTemplate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.AbpTemplateCoreModule, AbpTemplate.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTemplate.EntityFrameworkCore.AbpTemplateEntityFrameworkModule, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:06,619 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-09 17:02:06,732 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 17:02:06,732 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 17:02:06,732 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 17:02:06,732 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-09 17:02:07,218 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpTemplate.EntityFrameworkCore.AbpTemplateDbContext, AbpTemplate.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-09 17:02:07,814 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-09 17:02:07,883 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-09 17:02:07,938 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-09 17:02:07,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpTemplate
+DEBUG 2018-05-09 17:02:08,005 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-09 17:02:08,048 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-09 17:02:08,103 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-09 17:02:08,103 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-09 17:02:08,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.CreateUserDto
+DEBUG 2018-05-09 17:02:08,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Users.Dto.UserDto
+DEBUG 2018-05-09 17:02:08,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-09 17:02:08,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-09 17:02:08,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-09 17:02:08,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.PermissionDto
+DEBUG 2018-05-09 17:02:08,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.Roles.Dto.RoleDto
+DEBUG 2018-05-09 17:02:08,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-09 17:02:08,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTemplate.MultiTenancy.Dto.TenantDto
+INFO  2018-05-09 17:02:10,682 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-09 17:02:10,924 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /index.html was not modified
+INFO  2018-05-09 17:02:10,939 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 284.6926ms 304 text/html
+INFO  2018-05-09 17:02:10,983 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/styles.f07454bb01b730501f78.bundle.css  
+INFO  2018-05-09 17:02:10,984 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /styles.f07454bb01b730501f78.bundle.css was not modified
+INFO  2018-05-09 17:02:10,984 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3507ms 304 text/css
+INFO  2018-05-09 17:02:10,985 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/scripts.7110e42c2813053fae54.bundle.js  
+INFO  2018-05-09 17:02:10,985 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /scripts.7110e42c2813053fae54.bundle.js was not modified
+INFO  2018-05-09 17:02:10,986 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5558ms 304 application/javascript
+INFO  2018-05-09 17:02:11,526 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/assets/appconfig.json application/json 
+INFO  2018-05-09 17:02:11,526 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /assets/appconfig.json was not modified
+INFO  2018-05-09 17:02:11,527 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5858ms 304 application/json
+INFO  2018-05-09 17:02:22,285 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-09 17:02:22,305 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.5282ms 200 text/html
+INFO  2018-05-09 17:02:22,338 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-09 17:02:22,342 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-09 17:02:22,347 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-09 17:02:22,350 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-05-09 17:02:22,350 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-05-09 17:02:22,350 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.9187ms 304 application/javascript
+INFO  2018-05-09 17:02:22,350 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.674ms 304 text/css
+INFO  2018-05-09 17:02:22,350 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-05-09 17:02:22,350 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.5925ms 304 application/javascript
+INFO  2018-05-09 17:02:22,678 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-05-09 17:02:22,679 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /favicon-32x32.png was not modified
+INFO  2018-05-09 17:02:22,679 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2017ms 304 image/png
+INFO  2018-05-09 17:02:22,723 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-09 17:02:22,728 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-05-09 17:02:22,728 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-05-09 17:02:22,987 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 264.3106ms 200 application/json
+INFO  2018-05-09 17:11:01,541 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-09 17:11:01,555 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\index.html'
+INFO  2018-05-09 17:11:01,571 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.287ms 200 text/html
+INFO  2018-05-09 17:14:25,131 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-09 17:14:25,133 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'D:\GitHub\module-zero-core-template-docker\src\AbpTemplate.Web.Host\wwwroot\index.html'
+INFO  2018-05-09 17:14:25,136 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.5925ms 200 text/html
+INFO  2018-05-09 17:14:35,216 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-09 17:14:35,217 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:35,220 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.0371ms 204 
+INFO  2018-05-09 17:14:35,229 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-09 17:14:35,229 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:35,231 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-09 17:14:35,992 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:36,039 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-09 17:14:37,319 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-09 17:14:37,380 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1383.6714ms
+INFO  2018-05-09 17:14:37,380 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2150.8401ms 200 application/json; charset=utf-8
+INFO  2018-05-09 17:14:37,396 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-09 17:14:37,396 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:37,397 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4859ms 204 
+INFO  2018-05-09 17:14:37,407 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-09 17:14:37,407 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:37,423 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:37,530 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTemplate.Sessions.SessionAppService.GetCurrentLoginInformations (AbpTemplate.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-09 17:14:37,542 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-09 17:14:37,551 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTemplate.Sessions.SessionAppService.GetCurrentLoginInformations (AbpTemplate.Application) in 128.1193ms
+INFO  2018-05-09 17:14:37,552 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 144.8612ms 200 application/json; charset=utf-8
+INFO  2018-05-09 17:14:42,374 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-05-09 17:14:42,375 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:42,375 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5538ms 204 
+INFO  2018-05-09 17:14:42,384 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2018-05-09 17:14:42,385 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:42,406 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:42,583 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTemplate.Controllers.TokenAuthController.Authenticate (AbpTemplate.Web.Core) with arguments (AbpTemplate.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-09 17:14:43,273 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-09 17:14:43,276 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTemplate.Controllers.TokenAuthController.Authenticate (AbpTemplate.Web.Core) in 870.1293ms
+INFO  2018-05-09 17:14:43,278 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 894.2233ms 200 application/json; charset=utf-8
+INFO  2018-05-09 17:14:45,878 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-09 17:14:45,878 [25   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:45,878 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9106ms 204 
+INFO  2018-05-09 17:14:45,990 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-09 17:14:45,990 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:45,996 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-09 17:14:46,004 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-09 17:14:46,155 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:46,157 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-09 17:14:46,455 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-09 17:14:46,456 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 300.8419ms
+INFO  2018-05-09 17:14:46,457 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 466.5937ms 200 application/json; charset=utf-8
+INFO  2018-05-09 17:14:46,475 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-09 17:14:46,475 [25   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:46,475 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4294ms 204 
+INFO  2018-05-09 17:14:46,484 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-09 17:14:46,484 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:46,485 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-09 17:14:46,486 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-09 17:14:46,490 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:46,493 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTemplate.Sessions.SessionAppService.GetCurrentLoginInformations (AbpTemplate.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-09 17:14:46,523 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-09 17:14:46,526 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTemplate.Sessions.SessionAppService.GetCurrentLoginInformations (AbpTemplate.Application) in 35.3382ms
+INFO  2018-05-09 17:14:46,526 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.8255ms 200 application/json; charset=utf-8
+INFO  2018-05-09 17:14:48,145 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiaBJFBv6tTbK0A%2BIlmpE7bHWLHrTI6t1a%2FDvs2%2BsPYsL2nBDFWKJdXqqgWx1I%2FvUUWGe27Uj302hSEzPlh9lBLy16JzPb1Z28BhYRxINwYs4ebaXWT07sv9mc7UDZyXDaWYv%2BZMOGNsFqT953SfmGAjV%2BuclWK75zqlcHWWSFecK1VJv%2FG8fZd0W2f0fz2K0%2BtwVlcbwF47pFP0lTO%2Fg6ezpVUwJJ28MeNxUuiSGpkIeKqhX4Uhag67QzKm1x5d9ZbKSFvtjvaLHKNcavIHA2UZdbXvVnbMe0NtEc3eS6DTE6ZeoS8UvTwfCFepN%2BnNN8ct%2FZF5sUeBHw7edLt1%2B2NiJBL71lHuQobQOgWZjL%2FwWkxtNRS9onRoHuD9tHCPrUgLzHj9dX6d1aljJLEx0VQj1JLIPz2jQEWcGNJFZXR%2BkRq0wL2O8rJ76ZpgRqm2ubApMwRZmmVwOs6Sz303AWg6H98dRfr6ZsVNEKPmmw4HW58ul4AVF8qe5%2BflyfxM9NS5rnTPh1KN%2B4sY0fZNWUlp  
+INFO  2018-05-09 17:14:48,146 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-09 17:14:48,154 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-09 17:14:48,154 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-09 17:14:48,258 [12   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-09 17:14:48,364 [11   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-09 17:14:48,412 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"31969395-48ce-476e-984e-f8c1fde07fea","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-05-09T17:14:48.4050306+03:00","Properties":{}}
+DEBUG 2018-05-09 17:14:48,472 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 31969395-48ce-476e-984e-f8c1fde07fea
+DEBUG 2018-05-09 17:15:23,510 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 31969395-48ce-476e-984e-f8c1fde07fea
+INFO  2018-05-09 17:15:23,528 [15   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-09 17:15:23,535 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35389.9561ms 101 
