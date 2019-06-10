@@ -1,3 +1,7 @@
+# Important
+
+Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
+
 ## Introduction
 
 This is the repository of the [ABP startup template docker image](https://hub.docker.com/r/volosoft/abp-template/).
