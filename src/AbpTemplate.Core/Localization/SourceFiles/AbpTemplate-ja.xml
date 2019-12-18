@@ -3,7 +3,7 @@
   <texts>
     <text name="HomePage" value="ホームページ" />
     <text name="About" value="我々について" />
-    <text name="WellcomeMessage" value="ようこそ AbpTemplate へ!" />
+    <text name="WellcomeMessage" value="ようこそ WebEdi へ!" />
 
     <text name="FormIsNotValidMessage" value="フォームは無効です。エラーを修正してください。" />
     <text name="TenantNameCanNotBeEmpty" value="テナント名を空にすることはできません" />
@@ -12,6 +12,8 @@
     <text name="ThereIsNoTenantDefinedWithName{0}" value="テナント名前 {0} の定義がありません。" />
     <text name="TenantIsNotActive" value="テナント {0} はアクティブではありません。 " />
     <text name="UserIsNotActiveAndCanNotLogin" value="ユーザー {0} がアクティブでなくログインできません。" />
+    <text name="UserEmailIsNotConfirmedAndCanNotLogin" value="ユーザー のE-mailはまだ確認していないので、ログインできません。" />
+    <text name="UserLockedOutMessage">ユーザアカウントはロックされていません。後で試してください。</text>
     <text name="PleaseEnterLoginInformation" value="ログイン情報を入力してください" />
     <text name="TenancyName" value="テナント名" />
     <text name="UserNameOrEmail" value="ユーザ名 または E-mail" />
@@ -52,6 +54,35 @@
     <text name="CreateNewUser" value="新規ユーザ作成" />
     <text name="Yes" value="はい" />
     <text name="No" value="いいえ" />
-    <text name="Optional" value="オプション" />
+    <text name="Optional" value="オプション" />    
+    <text name="LeaveEmptyToSwitchToHost">空白ままにする、ホストに変えます。</text>
+
+    <text name="CurrentTenant">現在のテナント</text>
+    <text name="NotSelected">選択してない</text>
+    <text name="Change">変更</text>
+    <text name="ChangeTenant">テナントを変える</text>
+
+    <text name="MultiLevelMenu">マルティレベルメニュー</text>
+    <text name="Back">戻る</text>
+    <text name="SuccessfullyRegistered">登録が成功です。</text>
+    <text name="WaitingForEmailActivation">メールアドレスはもう有効です。</text>
+    <text name="Roles">ロール</text>
+    <text name="DisplayName">表示名</text>
+
+    <text name="Edit">変更</text>
+    <text name="Delete">削除</text>
+
+    <text name="CreateNewRole">ロール作成</text>
+    <text name="RoleName">ロール名</text>
+    <text name="Actions">アクション</text>
+
+    <text name="CouldNotCompleteLoginOperation">ログイン出来ませんでした。後でもう一度試してください。</text>
+
+    <text name="CouldNotValidateExternalUser">外部ユーザを認識できませんでした。</text>
+    <text name="EditRole">ロール変更</text>
+    <text name="EditTenant">テナント変更</text>
+    <text name="EditUser">ユーザ変更</text>
+    <text name="TenantIdIsNotActive{0}">テナントＩＤ:{0} は有効ではありません。</text>
+    <text name="UnknownTenantId{0}">テナントＩＤ：{0}がありません。</text>
   </texts>
 </localizationDictionary>
